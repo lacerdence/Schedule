@@ -1,8 +1,23 @@
-# Schedule
+#In Progress..
+#
 
-Practice project
+# About the project
 
-## How to run this project ?
 
-- Open the terminal on the project folder and run this command
-  > ...
+
+# Technologies
+## Back end
+- Java
+- Spring Boot
+
+## Front end
+- In Progress
+
+## Back end
+Prerequisites: Java 23
+
+# Author
+
+Antonio Vinnicius Lacerda
+
+[https://www.linkedin.com/in/antonio-vinnicius-lacerda](https://www.linkedin.com/in/antonio-vinnicius-lacerda/)
