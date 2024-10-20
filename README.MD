@@ -28,6 +28,19 @@ http://localhost:8080/api/agendas
 http://localhost:8080/api/agendas/1
 ```
 
+### Response
+```bash
+    {
+        "id": 1,
+        "nome": "name",
+        "compromisso": "Meeting with example",
+        "data": "2024-08-01",
+        "hora": "21:38:00"
+    },
+```
+
+
+
 ## POST
 
 ## PUT
