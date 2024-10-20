@@ -23,12 +23,30 @@ Prerequisites: Java 23
 ```bash
 http://localhost:8080/api/agendas
 ```
-### Request (specific record passing ID)
+### Request (passing ID)
 ```bash
 http://localhost:8080/api/agendas/1
 ```
 
-### Response
+### Response (all records)
+```bash
+ {
+        "id": 1,
+        "nome": "Emerson Rossini",
+        "compromisso": "Reunião com BBM",
+        "data": "2024-08-01",
+        "hora": "21:38:00"
+    },
+    {
+        "id": 2,
+        "nome": "Carlos",
+        "compromisso": "Reunião com Sertran",
+        "data": "2024-10-16",
+        "hora": "21:38:00"
+    },
+```
+
+### Response (by Id)
 ```bash
     200 OK
     {
