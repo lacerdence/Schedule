@@ -25,7 +25,7 @@ http://localhost:8080/api/agendas
 ```
 ### Request (passing ID)
 ```bash
-http://localhost:8080/api/agendas/1
+http://localhost:8080/api/agendas/Id
 ```
 
 ### Response (all records)
@@ -88,12 +88,13 @@ http://localhost:8080/api/agendas
     },
 ```
 
-
-
 ## PUT
 
 ### Request
+
 ```bash
+http://localhost:8080/api/agendas/Id
+
 {
     "id": 1,
     "nome": "Altered name",
@@ -115,6 +116,17 @@ http://localhost:8080/api/agendas
 ```
 
 ## DELETE
+
+### Request
+
+```bash
+http://localhost:8080/api/agendas/Id
+```
+
+### Response
+```bash
+Id
+```
 
 
 # Author
