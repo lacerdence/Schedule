@@ -19,6 +19,9 @@ Prerequisites: Java 23
 
 # Methods
 ## GET
+```bash
+http://localhost:8080/api/agendas
+```
 
 ## POST
 
