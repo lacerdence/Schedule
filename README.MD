@@ -16,6 +16,17 @@ The schedule project is an online agenda to detail meetings with the aim of faci
 ## Back end
 Prerequisites: Java 23
 
+
+# Methods
+## GET
+
+## POST
+
+## PUT
+
+## DELETE
+
+
 # Author
 
 Antonio Vinnicius Lacerda
