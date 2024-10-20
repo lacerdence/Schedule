@@ -30,6 +30,7 @@ http://localhost:8080/api/agendas/1
 
 ### Response
 ```bash
+    200 OK
     {
         "id": 1,
         "nome": "name",
