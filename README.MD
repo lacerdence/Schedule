@@ -2,7 +2,7 @@
 #
 
 # About the project
-
+The schedule project is an online agenda to detail meetings with the aim of facilitating the team's visualization, knowing at what time it would be most appropriate to request a call/technical conversation regarding a question/definition, among others.
 
 
 # Technologies
