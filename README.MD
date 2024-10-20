@@ -18,9 +18,14 @@ Prerequisites: Java 23
 
 
 # Methods
-## GET (all the records)
+## GET
+### Request (all records)
 ```bash
 http://localhost:8080/api/agendas
+```
+### Request (specific record passing ID)
+```bash
+http://localhost:8080/api/agendas/1
 ```
 
 ## POST
