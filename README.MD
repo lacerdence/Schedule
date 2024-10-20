@@ -18,7 +18,7 @@ Prerequisites: Java 23
 
 
 # Methods
-## GET
+## GET (all the records)
 ```bash
 http://localhost:8080/api/agendas
 ```
