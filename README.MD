@@ -30,7 +30,7 @@ http://localhost:8080/api/agendas/1
 
 ### Response (all records)
 ```bash
- {
+    {
         "id": 1,
         "nome": "name 1",
         "compromisso": "Meeting with example 1",
@@ -91,6 +91,28 @@ http://localhost:8080/api/agendas
 
 
 ## PUT
+
+### Request
+```bash
+{
+    "id": 1,
+    "nome": "Altered name",
+    "compromisso": "Altered Meeting",
+    "data": "2024-08-01",
+    "hora": "21:38:00"
+},
+```
+
+### Response
+```bash
+{
+    "id": 1,
+    "nome": "Altered name",
+    "compromisso": "Altered Meeting",
+    "data": "2024-08-01",
+    "hora": "21:38:00"
+},
+```
 
 ## DELETE
 
