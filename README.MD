@@ -32,15 +32,15 @@ http://localhost:8080/api/agendas/1
 ```bash
  {
         "id": 1,
-        "nome": "Emerson Rossini",
-        "compromisso": "Reunião com BBM",
+        "nome": "name 1",
+        "compromisso": "Meeting with example 1",
         "data": "2024-08-01",
         "hora": "21:38:00"
     },
     {
         "id": 2,
-        "nome": "Carlos",
-        "compromisso": "Reunião com Sertran",
+        "nome": "name 2",
+        "compromisso": "Meeting with example 2",
         "data": "2024-10-16",
         "hora": "21:38:00"
     },
