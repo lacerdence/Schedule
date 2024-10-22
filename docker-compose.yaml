@@ -1,12 +1,35 @@
 services:
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mysql
+    environment:
+      - MYSQL_HOST=mysql
+      - DB_PORT=3306
+      - DB_USER=admin
+      - DB_PASSWORD=12345
+      - DB_NAME=agendadb
+    networks:
+      - my-network
+
   mysql:
     image: mysql
     ports:
       - "3306:3306"
-    expose:
-      - "3306"
     environment:
       - MYSQL_USER=admin
       - MYSQL_PASSWORD=12345
       - MYSQL_DATABASE=agendadb
       - MYSQL_ROOT_PASSWORD=12345
+    volumes:
+      - db_data:/var/lib/mysql
+    networks:
+      - my-network
+
+volumes:
+  db_data:
+
+networks:
+  my-network:
