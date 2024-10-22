@@ -13,6 +13,8 @@ The **Schedule** project is an online agenda to detail meetings with the aim of 
 
 ### Frontend
 
+> [frontend](https://github.com/CarlosMartorini/schedule-next)
+
 - Next
 - tailwindcss
 - shadcn/ui
